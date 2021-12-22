@@ -1,0 +1,394 @@
+body{
+    background-image: url("../images/fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.crisma{
+    position: absolute;
+    height: 85%;
+    width: 40%;
+    border: white 3px solid;
+    background-image: url("../images/fondo_2.gif");
+    background-repeat: no-repeat;
+    animation-name: fondo_2;
+    animation-duration: 2s;
+
+}
+#crisma_1{
+    left: 35%;
+    top: 10%;
+    animation-name: crisma;
+    animation-duration: 10s;
+}
+
+
+.texto{
+    font-size: 500%;
+    left:12%;
+    top: 0%;
+    position: absolute;
+
+}
+.texto_1{
+    color:white;
+    font-family: 'Imperial Script', 'Mea Culpa',cursive;
+
+
+}
+.arbol{
+    padding: 30%;
+    position: absolute;
+    bottom: 0%;
+}
+.arbol_2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:300px;
+    height:300px;
+    bottom: 3%;
+    left:3%;
+}
+
+.b_amarilla{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:50px;
+    height:50px;
+    top: 30%;
+    left:35%;
+    animation-name: b1;
+    animation-duration: 15s;
+}
+.b_azul{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 43%;
+    left:58%;
+    animation-name: b2;
+    animation-duration: 15s;
+}
+.b_verde{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 44%;
+    left: 44%;
+    animation-name: b3;
+    animation-duration: 15s;
+}
+.b_roja2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 42%;
+    left:30%;
+    animation-name: b4;
+    animation-duration: 15s;
+}
+.b_roja{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 28%;
+    left:52%;
+    animation-name: b5;
+    animation-duration: 15s;
+}
+.b_amarilla2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:50px;
+    height:50px;
+    top: 60%;
+    left:20%;
+    animation-name: b6;
+    animation-duration: 15s;
+}
+.b_amarilla3{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:50px;
+    height:50px;
+    top: 55%;
+    left:60%;
+    animation-name: b7;
+    animation-duration: 15s;
+}
+.b_azul2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 55%;
+    left:40%;
+    animation-name: b8;
+    animation-duration: 15s;
+}
+
+.regalos{
+    padding: 20%;
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+}
+
+.c_azul{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:100px;
+    height:100px;
+    top: 30%;
+    left:53%;
+    z-index: 1;
+    transform: rotate(5deg);
+}
+.c_roja{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:90px;
+    height:90px;
+    top: 30%;
+    left:3%;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+.c_verde{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:120px;
+    height:120px;
+    top: 30%;
+    left:25%;
+    z-index: 3;
+    transform: rotate(0deg);
+}
+.renos{
+    padding: 20%;
+    position: absolute;
+    top: 22%;
+    right: 0%;
+}
+.renos_1{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:150px;
+    height:150px;
+    top: 50%;
+    left:0%;
+    z-index: 3;
+    transform: rotate(20deg);
+    animation-name: renos_1;
+    animation-duration: 20s;
+    
+}
+.nubes{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:100px;
+    height:100px;
+    top: 0%;
+    left:10%;
+    z-index: 1;
+    transform: rotate(0deg);
+    opacity: 0.7;
+}
+.nubes_2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width:100px;
+    height:100px;
+    top: 0%;
+    left:50%;
+    z-index: 2;
+    transform: rotate(0deg);
+    opacity: 0.7;
+}
+@keyframes fondo_2{
+	from {background-color: rgb(168, 10, 10);}
+	to {background-image: url("../images/fondo_2.gif");}
+}
+@keyframes renos_1{
+	0% {top: 50%;
+		left: 0%;}
+	
+	33% {
+        top: 10%;
+		left: 3%;
+		transform: rotate(0 deg);
+	}
+    66% {
+        top: 40%;
+		left: 5%;
+		transform: rotate(0 deg);
+	}
+	100% {
+	left: 20%;
+	top: 7%;
+	transform: rotate(0 deg);
+		z-index: 1;
+	}
+}
+@keyframes crisma{
+	0% {top: 5%;
+		left: 0%;}
+    50% {
+        left: 18%;
+        top: 7%;
+        transform: rotate(360deg);
+        }
+	100% {
+	left: 35%;
+	top: 10%;
+	transform: rotate(360deg);
+	}
+}
+@keyframes b1{
+	0% {top: 30%;
+		left: 34%;
+        transform: rotate(-45deg);}
+    50% {top: 30%;
+        left: 34%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 30%;
+        left:35%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 30%;
+        left:36%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b2{
+	0% {top: 43%;
+        left:57%;
+        transform: rotate(-45deg);}
+    50% {top: 43%;
+        left:57%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 43%;
+        left:58%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 43%;
+        left:59%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b3{
+	0% {top: 44%;
+        left: 43%;
+        transform: rotate(-45deg);}
+    50% {top: 44%;
+        left: 43%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 44%;
+        left: 44%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 44%;
+        left: 45%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b4{
+	0% {top: 42%;
+        left:29%;
+        transform: rotate(-45deg);}
+    50% {top: 42%;
+        left:29%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 42%;
+        left:30%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 42%;
+        left:31%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b5{
+	0% {top: 28%;
+        left:51%;
+        transform: rotate(-45deg);}
+    50% {top: 28%;
+        left:51%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 28%;
+        left:52%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 28%;
+        left:53%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b6{
+	0% {top: 60%;
+        left:19%;
+        transform: rotate(-45deg);}
+    50% {top: 60%;
+        left:19%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 60%;
+        left:20%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 60%;
+        left:21%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b7{
+	0% {top: 55%;
+        left:59%;
+        transform: rotate(-45deg);}
+    50% {top: 55%;
+        left:59%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 55%;
+        left:60%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 55%;
+        left:61%;
+	transform: rotate(45deg);
+	}
+}
+@keyframes b8{
+	0% {top: 55%;
+        left:39%;
+        transform: rotate(-45deg);}
+    50% {top: 55%;
+        left:39%;
+        transform: rotate(-45deg);}
+    75% {
+        top: 55%;
+        left:40%;
+        transform: rotate(0deg);
+        }
+	100% {
+        top: 55%;
+        left:41%;
+	transform: rotate(45deg);
+	}
+}
